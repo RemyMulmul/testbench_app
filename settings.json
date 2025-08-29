@@ -1,0 +1,41 @@
+{
+    "version": "v1.0.0",
+    "default_paths": {
+      "data_dir": "data",
+      "template_excel": "/Users/remymuhlethaler/Desktop/Template_measurement.xlsx",
+      "icons_dir": "assets/icons",
+      "ico_analyse": "Analysing.png",
+      "icon_path"     : "assets/icon.png",
+      "data_path"  : "/Users/remymuhlethaler/Desktop/Stage_swicebrace/RD_V2/data",
+      "logo_path": "assets/swibrace-logo.png",
+      "help_path": "/Users/remymuhlethaler/Desktop/Stage_swicebrace/RD_V2/Software_user_manual.pdf"
+    },
+    "analysis": {
+      "min_cycle_length": 10,
+      "default_plasticity_threshold": 0.3
+    },
+    "ui": {
+      "default_port_index": "last"
+    }, 
+    "materials": [
+      "PLA",
+      "TPU",
+      "CF", 
+      "CIMENT"
+    ],
+    "benches": [
+      {
+        "name": "Bench RED (Std 85mm)",
+        "factor": 0.025,
+        "lever_arm_mm": 85,
+        "torque_threshold": 3.4
+      },
+      {
+        "name": "Bench pediatry (Short 70mm)",
+        "factor": 0.025,
+        "lever_arm_mm": 70,
+        "torque_threshold": 2.5
+      }
+    ]
+  }
+  
